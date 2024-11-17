@@ -60,4 +60,14 @@ for i in range(1, 101):
     else:
         print(f"{i} is an odd number") # Here we are printing all the odd numbers in the range from 1 to 100
         
+        print("Example 4  Printing Each Character in a String usng for loop")        
+char="Hello World..!"
+for each_Character in char:
+    print(each_Character) #Here we are printing each character in the string "Hello World..!"
+    
+print("Example 5  Iterating Over a Dictionary using for loop")    
+#Dictionary of Names and their ages
+dict={"Adeep":21,"Likitha":21,"Suresh":22,"Geetha":34}
+for name,age in dict.items():
+    print(f"{name}:{age}")
         
